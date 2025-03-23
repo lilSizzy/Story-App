@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Story</string>
+    <string name="title_hint">Nhập tiêu đề</string>
+    <string name="author_hint">Nhập tác giả</string>
+    <string name="save">Lưu</string>
+    <string name="update">Cập nhật</string>
+    <string name="delete">Xóa</string>
+    <string name="cancel">Hủy</string>
+    <string name="add_book">Thêm sách</string>
+    <string name="edit_book">Sửa sách</string>
+    <string name="delete_book">Xóa sách</string>
+    <string name="username_hint">Nhập tên đăng nhập</string>
+    <string name="password_hint">Nhập mật khẩu</string>
+    <string name="register">Đăng ký</string>
+    <string name="login">Đăng nhập</string>
+    <string name="role">Quản trị viên</string>
+    <string name="user">Người dùng</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="delete_account">Xóa tài khoản</string>
+    <string name="confirm_delete">Bạn có chắc chắn muốn xóa tài khoản này?</string>
+    <string name="delete_success">Xóa tài khoản thành công!</string>
+    <string name="delete_failed">Xóa tài khoản thất bại!</string>
+    <string name="no_books">Không có sách nào!</string>
+    <string name="no_users">Không có người dùng nào!</string>
+    <string name="no_stories">Không có truyện nào!</string>
+    <string name="no_comments">Không có bình luận nào!</string>
+    <string name="no_likes">Không có lượt thích nào!</string>"
+    <string name="search"> Nhập tên truyện cần tìm </string>
+    <string name="chapter"> Chapter </string>
+    <string name="tenTruyen"> Tên Truyện </string>"
+</resources>

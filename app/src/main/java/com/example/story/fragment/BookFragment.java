@@ -27,7 +27,7 @@ import java.util.concurrent.Executors;
 public class BookFragment extends Fragment implements BookAdapter.OnBookActionListener {
     private RecyclerView recyclerView;
     private BookAdapter adapter;
-    private Button addButton;
+    private ImageButton addButton;
     private AppDatabase database;
 
     @Nullable
@@ -37,7 +37,7 @@ public class BookFragment extends Fragment implements BookAdapter.OnBookActionLi
         recyclerView = view.findViewById(R.id.book_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        addButton = view.findViewById(R.id.floatingActionButton);
+        addButton = view.findViewById(R.id.add_button);
         database = AppDatabase.getInstance(getContext()); // Lấy database instance
 
         addButton.setOnClickListener(v -> {
